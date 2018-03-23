@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADBC155E2063A3DF0060EA01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC155D2063A3DF0060EA01 /* AppDelegate.m */; };
+		ADBC15642063A3DF0060EA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBC15622063A3DF0060EA01 /* Main.storyboard */; };
+		ADBC15662063A3DF0060EA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBC15652063A3DF0060EA01 /* Assets.xcassets */; };
+		ADBC15692063A3DF0060EA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBC15672063A3DF0060EA01 /* LaunchScreen.storyboard */; };
+		ADBC156C2063A3DF0060EA01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC156B2063A3DF0060EA01 /* main.m */; };
+		ADBC15762063A3DF0060EA01 /* JQ_EditDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15752063A3DF0060EA01 /* JQ_EditDemoTests.m */; };
+		ADBC15812063A3DF0060EA01 /* JQ_EditDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15802063A3DF0060EA01 /* JQ_EditDemoUITests.m */; };
+		ADBC15972063A4260060EA01 /* JQ_AttributeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15902063A4260060EA01 /* JQ_AttributeModel.m */; };
+		ADBC15982063A4260060EA01 /* JQ_TextEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15922063A4260060EA01 /* JQ_TextEdit.m */; };
+		ADBC15992063A4260060EA01 /* JQ_TextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15942063A4260060EA01 /* JQ_TextStorage.m */; };
+		ADBC159A2063A4260060EA01 /* JQ_TextStorageSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15962063A4260060EA01 /* JQ_TextStorageSegment.m */; };
+		ADBC15B22063A4610060EA01 /* EditColorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC159E2063A4610060EA01 /* EditColorCollectionViewCell.m */; };
+		ADBC15B32063A4610060EA01 /* EditFontCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15A02063A4610060EA01 /* EditFontCollectionViewCell.m */; };
+		ADBC15B42063A4610060EA01 /* EditStyleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15A22063A4610060EA01 /* EditStyleCollectionViewCell.m */; };
+		ADBC15B52063A4610060EA01 /* EditColorMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15A42063A4610060EA01 /* EditColorMenu.m */; };
+		ADBC15B62063A4610060EA01 /* EditFontMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15A62063A4610060EA01 /* EditFontMenu.m */; };
+		ADBC15B72063A4610060EA01 /* EditGroupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15A82063A4610060EA01 /* EditGroupMenu.m */; };
+		ADBC15B82063A4610060EA01 /* EditMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15AA2063A4610060EA01 /* EditMenu.m */; };
+		ADBC15B92063A4610060EA01 /* EditStyleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15AC2063A4610060EA01 /* EditStyleMenu.m */; };
+		ADBC15BA2063A4610060EA01 /* UIColor+HEXString.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15AF2063A4610060EA01 /* UIColor+HEXString.m */; };
+		ADBC15BB2063A4610060EA01 /* JQ_LandScapeBaseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15B12063A4610060EA01 /* JQ_LandScapeBaseMenu.m */; };
+		ADBC15BF2063A49E0060EA01 /* UIFontDescriptor+JQ_AttributeString.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15BE2063A49E0060EA01 /* UIFontDescriptor+JQ_AttributeString.m */; };
+		ADBC15C22063AC660060EA01 /* JQ_AttachementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC15C12063AC660060EA01 /* JQ_AttachementModel.m */; };
+		ADDFCD4A20649E05003B2169 /* JQ_TextAttributeStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDFCD4920649E05003B2169 /* JQ_TextAttributeStorage.m */; };
+		ADDFCD4D2064E77E003B2169 /* EditImageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDFCD4C2064E77E003B2169 /* EditImageMenu.m */; };
+		ADDFCD502064F1C1003B2169 /* JQ_TextAttributeStorage+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDFCD4F2064F1C1003B2169 /* JQ_TextAttributeStorage+Json.m */; };
+		ADDFCD542064F731003B2169 /* JQ_Config.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDFCD532064F731003B2169 /* JQ_Config.m */; };
+		ADDFCD572064F983003B2169 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDFCD562064F983003B2169 /* UIColor+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADBC15722063A3DF0060EA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBC15512063A3DF0060EA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBC15582063A3DF0060EA01;
+			remoteInfo = JQ_EditDemo;
+		};
+		ADBC157D2063A3DF0060EA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBC15512063A3DF0060EA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBC15582063A3DF0060EA01;
+			remoteInfo = JQ_EditDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADBC15592063A3DF0060EA01 /* JQ_EditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQ_EditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBC155C2063A3DF0060EA01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADBC155D2063A3DF0060EA01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADBC15632063A3DF0060EA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADBC15652063A3DF0060EA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADBC15682063A3DF0060EA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADBC156A2063A3DF0060EA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBC156B2063A3DF0060EA01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADBC15712063A3DF0060EA01 /* JQ_EditDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQ_EditDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBC15752063A3DF0060EA01 /* JQ_EditDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQ_EditDemoTests.m; sourceTree = "<group>"; };
+		ADBC15772063A3DF0060EA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBC157C2063A3DF0060EA01 /* JQ_EditDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQ_EditDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBC15802063A3DF0060EA01 /* JQ_EditDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQ_EditDemoUITests.m; sourceTree = "<group>"; };
+		ADBC15822063A3DF0060EA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBC158F2063A4260060EA01 /* JQ_AttributeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQ_AttributeModel.h; sourceTree = "<group>"; };
+		ADBC15902063A4260060EA01 /* JQ_AttributeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQ_AttributeModel.m; sourceTree = "<group>"; };
+		ADBC15912063A4260060EA01 /* JQ_TextEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQ_TextEdit.h; sourceTree = "<group>"; };
+		ADBC15922063A4260060EA01 /* JQ_TextEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQ_TextEdit.m; sourceTree = "<group>"; };
+		ADBC15932063A4260060EA01 /* JQ_TextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQ_TextStorage.h; sourceTree = "<group>"; };
+		ADBC15942063A4260060EA01 /* JQ_TextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQ_TextStorage.m; sourceTree = "<group>"; };
+		ADBC15952063A4260060EA01 /* JQ_TextStorageSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQ_TextStorageSegment.h; sourceTree = "<group>"; };
+		ADBC15962063A4260060EA01 /* JQ_TextStorageSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQ_TextStorageSegment.m; sourceTree = "<group>"; };
+		ADBC159D2063A4610060EA01 /* EditColorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditColorCollectionViewCell.h; sourceTree = "<group>"; };
+		ADBC159E2063A4610060EA01 /* EditColorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditColorCollectionViewCell.m; sourceTree = "<group>"; };
+		ADBC159F2063A4610060EA01 /* EditFontCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFontCollectionViewCell.h; sourceTree = "<group>"; };
+		ADBC15A02063A4610060EA01 /* EditFontCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFontCollectionViewCell.m; sourceTree = "<group>"; };
+		ADBC15A12063A4610060EA01 /* EditStyleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditStyleCollectionViewCell.h; sourceTree = "<group>"; };
+		ADBC15A22063A4610060EA01 /* EditStyleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditStyleCollectionViewCell.m; sourceTree = "<group>"; };
+		ADBC15A32063A4610060EA01 /* EditColorMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditColorMenu.h; sourceTree = "<group>"; };
+		ADBC15A42063A4610060EA01 /* EditColorMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditColorMenu.m; sourceTree = "<group>"; };
+		ADBC15A52063A4610060EA01 /* EditFontMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFontMenu.h; sourceTree = "<group>"; };
+		ADBC15A62063A4610060EA01 /* EditFontMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFontMenu.m; sourceTree = "<group>"; };
+		ADBC15A72063A4610060EA01 /* EditGroupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditGroupMenu.h; sourceTree = "<group>"; };
+		ADBC15A82063A4610060EA01 /* EditGroupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditGroupMenu.m; sourceTree = "<group>"; };
+		ADBC15A92063A4610060EA01 /* EditMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMenu.h; sourceTree = "<group>"; };
+		ADBC15AA2063A4610060EA01 /* EditMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMenu.m; sourceTree = "<group>"; };
+		ADBC15AB2063A4610060EA01 /* EditStyleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditStyleMenu.h; sourceTree = "<group>"; };
+		ADBC15AC2063A4610060EA01 /* EditStyleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditStyleMenu.m; sourceTree = "<group>"; };
+		ADBC15AE2063A4610060EA01 /* UIColor+HEXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEXString.h"; sourceTree = "<group>"; };
+		ADBC15AF2063A4610060EA01 /* UIColor+HEXString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEXString.m"; sourceTree = "<group>"; };
+		ADBC15B02063A4610060EA01 /* JQ_LandScapeBaseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQ_LandScapeBaseMenu.h; sourceTree = "<group>"; };
+		ADBC15B12063A4610060EA01 /* JQ_LandScapeBaseMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQ_LandScapeBaseMenu.m; sourceTree = "<group>"; };
+		ADBC15BD2063A49E0060EA01 /* UIFontDescriptor+JQ_AttributeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFontDescriptor+JQ_AttributeString.h"; sourceTree = "<group>"; };
+		ADBC15BE2063A49E0060EA01 /* UIFontDescriptor+JQ_AttributeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFontDescriptor+JQ_AttributeString.m"; sourceTree = "<group>"; };
+		ADBC15C02063AC660060EA01 /* JQ_AttachementModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQ_AttachementModel.h; sourceTree = "<group>"; };
+		ADBC15C12063AC660060EA01 /* JQ_AttachementModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQ_AttachementModel.m; sourceTree = "<group>"; };
+		ADDFCD4820649E05003B2169 /* JQ_TextAttributeStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQ_TextAttributeStorage.h; sourceTree = "<group>"; };
+		ADDFCD4920649E05003B2169 /* JQ_TextAttributeStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQ_TextAttributeStorage.m; sourceTree = "<group>"; };
+		ADDFCD4B2064E77E003B2169 /* EditImageMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditImageMenu.h; sourceTree = "<group>"; };
+		ADDFCD4C2064E77E003B2169 /* EditImageMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditImageMenu.m; sourceTree = "<group>"; };
+		ADDFCD4E2064F1C1003B2169 /* JQ_TextAttributeStorage+Json.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JQ_TextAttributeStorage+Json.h"; sourceTree = "<group>"; };
+		ADDFCD4F2064F1C1003B2169 /* JQ_TextAttributeStorage+Json.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JQ_TextAttributeStorage+Json.m"; sourceTree = "<group>"; };
+		ADDFCD522064F731003B2169 /* JQ_Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQ_Config.h; sourceTree = "<group>"; };
+		ADDFCD532064F731003B2169 /* JQ_Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQ_Config.m; sourceTree = "<group>"; };
+		ADDFCD552064F983003B2169 /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		ADDFCD562064F983003B2169 /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBC15562063A3DF0060EA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBC156E2063A3DF0060EA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBC15792063A3DF0060EA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBC15502063A3DF0060EA01 = {
+			isa = PBXGroup;
+			children = (
+				ADBC155B2063A3DF0060EA01 /* JQ_EditDemo */,
+				ADBC15742063A3DF0060EA01 /* JQ_EditDemoTests */,
+				ADBC157F2063A3DF0060EA01 /* JQ_EditDemoUITests */,
+				ADBC155A2063A3DF0060EA01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBC155A2063A3DF0060EA01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC15592063A3DF0060EA01 /* JQ_EditDemo.app */,
+				ADBC15712063A3DF0060EA01 /* JQ_EditDemoTests.xctest */,
+				ADBC157C2063A3DF0060EA01 /* JQ_EditDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBC155B2063A3DF0060EA01 /* JQ_EditDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC15BC2063A4760060EA01 /* Extension */,
+				ADBC159B2063A4610060EA01 /* JQ_LandScapeMenu */,
+				ADBC158E2063A4260060EA01 /* JQ_Edit */,
+				ADBC155C2063A3DF0060EA01 /* AppDelegate.h */,
+				ADBC155D2063A3DF0060EA01 /* AppDelegate.m */,
+				ADBC15622063A3DF0060EA01 /* Main.storyboard */,
+				ADBC15652063A3DF0060EA01 /* Assets.xcassets */,
+				ADBC15672063A3DF0060EA01 /* LaunchScreen.storyboard */,
+				ADBC156A2063A3DF0060EA01 /* Info.plist */,
+				ADBC156B2063A3DF0060EA01 /* main.m */,
+			);
+			path = JQ_EditDemo;
+			sourceTree = "<group>";
+		};
+		ADBC15742063A3DF0060EA01 /* JQ_EditDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC15752063A3DF0060EA01 /* JQ_EditDemoTests.m */,
+				ADBC15772063A3DF0060EA01 /* Info.plist */,
+			);
+			path = JQ_EditDemoTests;
+			sourceTree = "<group>";
+		};
+		ADBC157F2063A3DF0060EA01 /* JQ_EditDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC15802063A3DF0060EA01 /* JQ_EditDemoUITests.m */,
+				ADBC15822063A3DF0060EA01 /* Info.plist */,
+			);
+			path = JQ_EditDemoUITests;
+			sourceTree = "<group>";
+		};
+		ADBC158E2063A4260060EA01 /* JQ_Edit */ = {
+			isa = PBXGroup;
+			children = (
+				ADDFCD552064F983003B2169 /* UIColor+Extension.h */,
+				ADDFCD562064F983003B2169 /* UIColor+Extension.m */,
+				ADDFCD522064F731003B2169 /* JQ_Config.h */,
+				ADDFCD532064F731003B2169 /* JQ_Config.m */,
+				ADBC158F2063A4260060EA01 /* JQ_AttributeModel.h */,
+				ADBC15902063A4260060EA01 /* JQ_AttributeModel.m */,
+				ADBC15C02063AC660060EA01 /* JQ_AttachementModel.h */,
+				ADBC15C12063AC660060EA01 /* JQ_AttachementModel.m */,
+				ADBC15912063A4260060EA01 /* JQ_TextEdit.h */,
+				ADBC15922063A4260060EA01 /* JQ_TextEdit.m */,
+				ADBC15932063A4260060EA01 /* JQ_TextStorage.h */,
+				ADBC15942063A4260060EA01 /* JQ_TextStorage.m */,
+				ADBC15952063A4260060EA01 /* JQ_TextStorageSegment.h */,
+				ADBC15962063A4260060EA01 /* JQ_TextStorageSegment.m */,
+				ADDFCD4820649E05003B2169 /* JQ_TextAttributeStorage.h */,
+				ADDFCD4920649E05003B2169 /* JQ_TextAttributeStorage.m */,
+				ADDFCD4E2064F1C1003B2169 /* JQ_TextAttributeStorage+Json.h */,
+				ADDFCD4F2064F1C1003B2169 /* JQ_TextAttributeStorage+Json.m */,
+			);
+			path = JQ_Edit;
+			sourceTree = "<group>";
+		};
+		ADBC159B2063A4610060EA01 /* JQ_LandScapeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC159C2063A4610060EA01 /* Cells */,
+				ADBC15A32063A4610060EA01 /* EditColorMenu.h */,
+				ADBC15A42063A4610060EA01 /* EditColorMenu.m */,
+				ADBC15A52063A4610060EA01 /* EditFontMenu.h */,
+				ADBC15A62063A4610060EA01 /* EditFontMenu.m */,
+				ADBC15A72063A4610060EA01 /* EditGroupMenu.h */,
+				ADBC15A82063A4610060EA01 /* EditGroupMenu.m */,
+				ADBC15A92063A4610060EA01 /* EditMenu.h */,
+				ADBC15AA2063A4610060EA01 /* EditMenu.m */,
+				ADBC15AB2063A4610060EA01 /* EditStyleMenu.h */,
+				ADBC15AC2063A4610060EA01 /* EditStyleMenu.m */,
+				ADDFCD4B2064E77E003B2169 /* EditImageMenu.h */,
+				ADDFCD4C2064E77E003B2169 /* EditImageMenu.m */,
+				ADBC15AD2063A4610060EA01 /* Extension */,
+				ADBC15B02063A4610060EA01 /* JQ_LandScapeBaseMenu.h */,
+				ADBC15B12063A4610060EA01 /* JQ_LandScapeBaseMenu.m */,
+			);
+			path = JQ_LandScapeMenu;
+			sourceTree = "<group>";
+		};
+		ADBC159C2063A4610060EA01 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC159D2063A4610060EA01 /* EditColorCollectionViewCell.h */,
+				ADBC159E2063A4610060EA01 /* EditColorCollectionViewCell.m */,
+				ADBC159F2063A4610060EA01 /* EditFontCollectionViewCell.h */,
+				ADBC15A02063A4610060EA01 /* EditFontCollectionViewCell.m */,
+				ADBC15A12063A4610060EA01 /* EditStyleCollectionViewCell.h */,
+				ADBC15A22063A4610060EA01 /* EditStyleCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ADBC15AD2063A4610060EA01 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC15AE2063A4610060EA01 /* UIColor+HEXString.h */,
+				ADBC15AF2063A4610060EA01 /* UIColor+HEXString.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ADBC15BC2063A4760060EA01 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC15BD2063A49E0060EA01 /* UIFontDescriptor+JQ_AttributeString.h */,
+				ADBC15BE2063A49E0060EA01 /* UIFontDescriptor+JQ_AttributeString.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBC15582063A3DF0060EA01 /* JQ_EditDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBC15852063A3DF0060EA01 /* Build configuration list for PBXNativeTarget "JQ_EditDemo" */;
+			buildPhases = (
+				ADBC15552063A3DF0060EA01 /* Sources */,
+				ADBC15562063A3DF0060EA01 /* Frameworks */,
+				ADBC15572063A3DF0060EA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQ_EditDemo;
+			productName = JQ_EditDemo;
+			productReference = ADBC15592063A3DF0060EA01 /* JQ_EditDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADBC15702063A3DF0060EA01 /* JQ_EditDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBC15882063A3DF0060EA01 /* Build configuration list for PBXNativeTarget "JQ_EditDemoTests" */;
+			buildPhases = (
+				ADBC156D2063A3DF0060EA01 /* Sources */,
+				ADBC156E2063A3DF0060EA01 /* Frameworks */,
+				ADBC156F2063A3DF0060EA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBC15732063A3DF0060EA01 /* PBXTargetDependency */,
+			);
+			name = JQ_EditDemoTests;
+			productName = JQ_EditDemoTests;
+			productReference = ADBC15712063A3DF0060EA01 /* JQ_EditDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADBC157B2063A3DF0060EA01 /* JQ_EditDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBC158B2063A3DF0060EA01 /* Build configuration list for PBXNativeTarget "JQ_EditDemoUITests" */;
+			buildPhases = (
+				ADBC15782063A3DF0060EA01 /* Sources */,
+				ADBC15792063A3DF0060EA01 /* Frameworks */,
+				ADBC157A2063A3DF0060EA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBC157E2063A3DF0060EA01 /* PBXTargetDependency */,
+			);
+			name = JQ_EditDemoUITests;
+			productName = JQ_EditDemoUITests;
+			productReference = ADBC157C2063A3DF0060EA01 /* JQ_EditDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBC15512063A3DF0060EA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = jqlv;
+				TargetAttributes = {
+					ADBC15582063A3DF0060EA01 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ADBC15702063A3DF0060EA01 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADBC15582063A3DF0060EA01;
+					};
+					ADBC157B2063A3DF0060EA01 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADBC15582063A3DF0060EA01;
+					};
+				};
+			};
+			buildConfigurationList = ADBC15542063A3DF0060EA01 /* Build configuration list for PBXProject "JQ_EditDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBC15502063A3DF0060EA01;
+			productRefGroup = ADBC155A2063A3DF0060EA01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBC15582063A3DF0060EA01 /* JQ_EditDemo */,
+				ADBC15702063A3DF0060EA01 /* JQ_EditDemoTests */,
+				ADBC157B2063A3DF0060EA01 /* JQ_EditDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBC15572063A3DF0060EA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBC15692063A3DF0060EA01 /* LaunchScreen.storyboard in Resources */,
+				ADBC15662063A3DF0060EA01 /* Assets.xcassets in Resources */,
+				ADBC15642063A3DF0060EA01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBC156F2063A3DF0060EA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBC157A2063A3DF0060EA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBC15552063A3DF0060EA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDFCD4D2064E77E003B2169 /* EditImageMenu.m in Sources */,
+				ADDFCD502064F1C1003B2169 /* JQ_TextAttributeStorage+Json.m in Sources */,
+				ADDFCD4A20649E05003B2169 /* JQ_TextAttributeStorage.m in Sources */,
+				ADBC15B52063A4610060EA01 /* EditColorMenu.m in Sources */,
+				ADBC15BA2063A4610060EA01 /* UIColor+HEXString.m in Sources */,
+				ADBC156C2063A3DF0060EA01 /* main.m in Sources */,
+				ADDFCD572064F983003B2169 /* UIColor+Extension.m in Sources */,
+				ADBC15982063A4260060EA01 /* JQ_TextEdit.m in Sources */,
+				ADBC155E2063A3DF0060EA01 /* AppDelegate.m in Sources */,
+				ADBC15B32063A4610060EA01 /* EditFontCollectionViewCell.m in Sources */,
+				ADBC15BB2063A4610060EA01 /* JQ_LandScapeBaseMenu.m in Sources */,
+				ADBC15C22063AC660060EA01 /* JQ_AttachementModel.m in Sources */,
+				ADBC15B22063A4610060EA01 /* EditColorCollectionViewCell.m in Sources */,
+				ADDFCD542064F731003B2169 /* JQ_Config.m in Sources */,
+				ADBC15B72063A4610060EA01 /* EditGroupMenu.m in Sources */,
+				ADBC15972063A4260060EA01 /* JQ_AttributeModel.m in Sources */,
+				ADBC15B92063A4610060EA01 /* EditStyleMenu.m in Sources */,
+				ADBC15B62063A4610060EA01 /* EditFontMenu.m in Sources */,
+				ADBC15992063A4260060EA01 /* JQ_TextStorage.m in Sources */,
+				ADBC15B82063A4610060EA01 /* EditMenu.m in Sources */,
+				ADBC159A2063A4260060EA01 /* JQ_TextStorageSegment.m in Sources */,
+				ADBC15BF2063A49E0060EA01 /* UIFontDescriptor+JQ_AttributeString.m in Sources */,
+				ADBC15B42063A4610060EA01 /* EditStyleCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBC156D2063A3DF0060EA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBC15762063A3DF0060EA01 /* JQ_EditDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBC15782063A3DF0060EA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBC15812063A3DF0060EA01 /* JQ_EditDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADBC15732063A3DF0060EA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBC15582063A3DF0060EA01 /* JQ_EditDemo */;
+			targetProxy = ADBC15722063A3DF0060EA01 /* PBXContainerItemProxy */;
+		};
+		ADBC157E2063A3DF0060EA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBC15582063A3DF0060EA01 /* JQ_EditDemo */;
+			targetProxy = ADBC157D2063A3DF0060EA01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADBC15622063A3DF0060EA01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBC15632063A3DF0060EA01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADBC15672063A3DF0060EA01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBC15682063A3DF0060EA01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBC15832063A3DF0060EA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADBC15842063A3DF0060EA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBC15862063A3DF0060EA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 547ZEB69CW;
+				INFOPLIST_FILE = JQ_EditDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jqlv.JQ-EditDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADBC15872063A3DF0060EA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 547ZEB69CW;
+				INFOPLIST_FILE = JQ_EditDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jqlv.JQ-EditDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADBC15892063A3DF0060EA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 547ZEB69CW;
+				INFOPLIST_FILE = JQ_EditDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jqlv.JQ-EditDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQ_EditDemo.app/JQ_EditDemo";
+			};
+			name = Debug;
+		};
+		ADBC158A2063A3DF0060EA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 547ZEB69CW;
+				INFOPLIST_FILE = JQ_EditDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jqlv.JQ-EditDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQ_EditDemo.app/JQ_EditDemo";
+			};
+			name = Release;
+		};
+		ADBC158C2063A3DF0060EA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 547ZEB69CW;
+				INFOPLIST_FILE = JQ_EditDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jqlv.JQ-EditDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JQ_EditDemo;
+			};
+			name = Debug;
+		};
+		ADBC158D2063A3DF0060EA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 547ZEB69CW;
+				INFOPLIST_FILE = JQ_EditDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jqlv.JQ-EditDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JQ_EditDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBC15542063A3DF0060EA01 /* Build configuration list for PBXProject "JQ_EditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBC15832063A3DF0060EA01 /* Debug */,
+				ADBC15842063A3DF0060EA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBC15852063A3DF0060EA01 /* Build configuration list for PBXNativeTarget "JQ_EditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBC15862063A3DF0060EA01 /* Debug */,
+				ADBC15872063A3DF0060EA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBC15882063A3DF0060EA01 /* Build configuration list for PBXNativeTarget "JQ_EditDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBC15892063A3DF0060EA01 /* Debug */,
+				ADBC158A2063A3DF0060EA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBC158B2063A3DF0060EA01 /* Build configuration list for PBXNativeTarget "JQ_EditDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBC158C2063A3DF0060EA01 /* Debug */,
+				ADBC158D2063A3DF0060EA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBC15512063A3DF0060EA01 /* Project object */;
+}
